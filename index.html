@@ -33,6 +33,25 @@
             font-size: 0.9em;
             color: #ccc;
         }
+        form {
+            margin-top: 30px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: none;
+        }
+        button {
+            background-color: #FFD700;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -79,6 +98,20 @@
         </ul>
         <p><strong>Interested in testing, collaborating, or staying updated?</strong><br>
         Drop anchor here — more updates are on the horizon.</p>
+
+        <h2>Contact</h2>
+        <form action="https://formspree.io/f/xzzenrdj" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea name="message" rows="5" required></textarea><br>
+
+            <button type="submit">Send</button>
+        </form>
 
         <div class="footer">
             &copy; 2025 HelmingSense. All rights reserved.
