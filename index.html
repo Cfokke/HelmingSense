@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>HelmingSense - Intelligence at the Helm</title>
-    <link rel="icon" type="image/png" sizes="128x128" href="favicon.png">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="favicon.png">
     <style>
         body {
             margin: 0;
@@ -23,6 +22,7 @@
             margin: auto;
             margin-top: 30px;
             border-radius: 10px;
+            position: relative;
         }
         h1, h2 {
             color: #FFD700;
@@ -34,6 +34,18 @@
             margin-top: 40px;
             font-size: 0.9em;
             color: #ccc;
+        }
+        a.about-link {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-weight: bold;
+            font-size: 1rem;
+            color: #FFD700;
+            text-decoration: none;
+        }
+        a.about-link:hover {
+            text-decoration: underline;
         }
         form {
             margin-top: 30px;
@@ -58,8 +70,8 @@
 </head>
 <body>
     <div class="overlay">
+        <a href="about.html" class="about-link">About</a>
         <h1>HelmingSense — Intelligence at the Helm</h1>
-        <a href="about.html">About</a>
         <h2>Smart Sailing, Made Simple</h2>
         <p>HelmingSense is a modular, Raspberry Pi–based marine monitoring and awareness system, designed for sailors who want deeper insight into their vessel without breaking the bank or getting locked into closed, proprietary systems.</p>
         <p>Created by a seasoned offshore cruiser, HelmingSense brings together the power of open-source platforms like Signal K and Node-RED with purpose-built marine-grade sensors. Whether you're at anchor, motor-sailing up-channel, or on passage offshore, HelmingSense delivers clear, reliable, real-time data — right where you need it.</p>
