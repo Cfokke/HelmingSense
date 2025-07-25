@@ -45,7 +45,7 @@ helmingsense/
 2. **Choose your first module:**  
    - ESP32 sensor node ([firmware/](firmware/))
    - Signal K server/extensions ([server/](server/))
-   - Logbook automation ([logbook/](logbook/))
+   - Logbook automation ([logbook/](logbook_system_design.md))
 3. **Contribute!** See [CONTRIBUTING.md](CONTRIBUTING.md) for how to get involved.
 
 ## Documentation
