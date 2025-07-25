@@ -54,7 +54,7 @@ helmingsense/
 - [Hardware & Wiring](docs/hardware.md)
 - [Sensor Firmware](docs/firmware.md)
 - [Server Configuration](docs/server.md)
-- [Logbook Automation](docs/create_logbook_system_design.md)
+- [Logbook Automation](logbook_system_design.md)
 - [Custom Dashboards](docs/dashboard.md)
 - [Troubleshooting](docs/troubleshooting.md)
 
